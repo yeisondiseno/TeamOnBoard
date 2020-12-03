@@ -1,0 +1,37 @@
+@import '../../assets/styles/Vars.scss';
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    background-color: $blue;
+    padding: 9px 7px;
+    border-radius: 5px;
+    border: 1px solid $blue;
+    color: $white;
+    cursor: pointer;
+    transition: 0.3s;
+    span svg{
+        width: 15px;
+        height: 15px;
+        margin-right: 9px;
+        path, circle, rect, line{
+            stroke: $white;
+        }
+    }
+
+    &:hover{
+        border: 1px solid $white;
+        transition: 0.3s;
+    }
+}
+
+.btn.active{
+    background-color: $white;
+    border-color: $white;
+    color: $blue;
+    span svg {
+        path, circle, rect, line{
+            stroke: $blue;
+        }
+    }
+}

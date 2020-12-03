@@ -2,14 +2,25 @@
 
 .App{
   display: grid;
-  grid-template-columns: 350px 1fr;
-  grid-template-rows: 80px 1fr;
+  grid-template-columns: 390px 1fr;
+  grid-template-rows: 60px 1fr;
   height: 100vh;
   width: 100vw;
+  background-color: $background;
   .head{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     grid-column-start: 1;
     grid-column-end: 3;
+    background-color: $blue;
+    color: $white;
+    padding: 10px 20px;
+    .menu menu {
+      display: flex;
+    }
+  }
+  .left{
+    background-color: $white;
   }
 }

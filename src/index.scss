@@ -1,12 +1,25 @@
 @import './assets/styles/Normalize.scss';
 @import './assets/styles/Vars.scss';
+@import './assets/styles/Fonts.scss';
 
 body{
   height: 100vh;
   width: 100vw;
+  color: $blue;
+  font-family: "SF Pro Text", sans-serif;
+  font-size: 14px;
+}
+
+p{
+  color: $blue;
 }
 
 #root{
   height: 100vh;
   width: 100vw;
+}
+
+.mrl1{
+  margin-left: 1em;
+  margin-right: 1em;
 }
