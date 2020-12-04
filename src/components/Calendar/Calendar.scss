@@ -1,0 +1,94 @@
+@import '../../assets/styles/Vars.scss';
+
+
+.calendar__section{
+    padding: 24px 20px;
+    border-bottom: solid 1px $divider;
+    .calendar__head, .calendar__head--right{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .calendar__head{
+        justify-content: space-between;
+        i{
+            font-size: 20px;
+            padding: 15px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        i:hover{
+            color: $blueLight;
+            transition: 0.3s;
+        }
+    }
+}
+.calendar__section table{
+    width: 100%;
+    border-spacing: 0;
+    thead{
+        th{
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+            height: 35px;
+        }
+    }
+    tbody{
+        td{
+            text-align: center;
+            position: relative;
+        }
+        .table-back{
+            background-color: $backTable;
+        }
+        .table-back--top{
+            border-radius: 10px 10px 0 0;
+        }
+        .table-back--bottom{
+            border-radius: 0 0 10px 10px;
+        }
+        span{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 36px;
+            height: 36px;
+            margin: 0.3em auto ;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        span:hover{
+            background-color: $backTable;
+            transition: 0.3s;
+        }
+        span.active{
+            background-color: $blue;
+            color: $white;
+        }
+        span.disable{
+            color: $disable;
+        }
+        .decorate , .decorate::before, .decorate::after{
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+        }
+        .decorate{
+            left: calc( 50% - 3px );
+            background-color: $red;
+        }
+        .decorate::before{
+            content: " ";
+            background-color: $violet;
+            left: 8px;
+        }
+        .decorate::after{
+            content: " ";
+            background-color: $green;
+            right: 8px;
+        }
+    }
+}

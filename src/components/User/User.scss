@@ -1,0 +1,15 @@
+@import '../../assets/styles/Vars.scss';
+
+.user-cont{
+    display: flex;
+    align-items: center;
+    img{
+        width: 38px;
+        height: 38px;
+        margin-right: 10px;
+        border-radius: 50%;
+    }
+    span{
+        font-size: 18px;
+    }
+}

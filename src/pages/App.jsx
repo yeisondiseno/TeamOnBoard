@@ -6,6 +6,8 @@ import LogoImg from '../assets/img/Logo-complete.svg';
 
 //componentes
 import Button from '../components/Button/Button';
+import User from '../components/User/User';
+import Calendar from  '../components/Calendar/Calendar';
 
 function App() {
 
@@ -28,14 +30,10 @@ function App() {
             <Button title="Profile" icon={iconProfile} />
           </menu>
         </div>
-        <div className="user">
-          user
-        </div>
+          <User />
       </div>
       <div className="left">
-        <div className="calendar">
-          calendar
-        </div>
+        <Calendar />
         <div className="schedule">
           schedule
         </div>
