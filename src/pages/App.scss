@@ -22,5 +22,10 @@
   }
   .left{
     background-color: $white;
+    height: calc( 100vh - 60px );
+  }
+  .schedule{
+    padding: 24px 20px;
+    max-height: calc( 100vh - ( 60px + 460px ) );
   }
 }

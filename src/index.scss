@@ -19,6 +19,11 @@ p{
   color: $blue;
 }
 
+button:focus{
+  outline: none;
+}
+
+
 .bullet{
   font-weight: bold;
   background-color: $green;
@@ -40,4 +45,25 @@ p{
 #root{
   height: 100vh;
   width: 100vw;
+}
+
+
+// scroll personalizado
+.scroll::-webkit-scrollbar, tbody::-webkit-scrollbar {
+  width: 12px;     
+  height: 12px;   
+  // display: none; 
+  background-color: $white;
+}
+.scroll::-webkit-scrollbar-thumb, tbody::-webkit-scrollbar-thumb {
+  background: $barr;
+  border-radius: 6px;
+  border: solid 2px $white;
+}
+.scroll::-webkit-scrollbar-thumb:hover, tbody::-webkit-scrollbar-thumb:hover {
+  background: $barr;
+  // box-shadow: $shadow;
+}
+.scroll::-webkit-scrollbar-thumb:active, tbody::-webkit-scrollbar-thumb:active {
+  background-color: $barr;
 }

@@ -1,0 +1,57 @@
+@import '../../assets/styles/Vars.scss';
+
+.SetSchedule{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1em;
+    img{
+        width: 38px;
+        height: 38px;
+        margin: auto 10px;
+    }
+    p{
+        margin: 0;
+    }
+    .SetSchedule__info{
+        display: flex;
+        flex-direction: column;
+    }
+    .SetSchedule__info--tilte{
+        font-weight: bold;
+        margin-bottom: 0.5em;
+    }
+}
+
+.SetSchedule__btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    color: $white;
+    text-align: center;
+    p{
+        color: $white;
+        font-size: 8px;
+    }
+    svg{
+        width: 14px;
+        height: 14px;
+        path, circle, rect, line{
+            stroke: $white;
+        }
+    }
+    &.red{
+        background-color: $redLight;
+    }
+    &.blue{
+        background-color: $acua;
+    }
+    &.violet{
+        background-color: $violetHigh;
+    }
+}
