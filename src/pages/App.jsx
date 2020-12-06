@@ -16,6 +16,7 @@ import Button from '../components/Button/Button';
 import User from '../components/User/User';
 import Calendar from  '../components/Calendar/Calendar';
 import SetSchedule from '../components/SetSchedule/SetSchedule';
+import UserContent from '../components/UserContent/UserContent';
 
 function App() {
 
@@ -111,7 +112,7 @@ function App() {
         </div>
       </div>
       <div className="content">
-        content
+        <UserContent />
       </div>
     </div>
   );

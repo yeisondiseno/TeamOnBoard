@@ -1,0 +1,62 @@
+@import '../../assets/styles/Vars.scss';
+
+.UserContent{
+    background-color: $white;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.UserContent__head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 20px 32px 20px;
+    border-bottom: solid 1px $barr;
+    img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+
+    .UserContent__head__info{
+        font-weight: bold;
+        h1{
+            margin: 0;
+            margin-bottom: 0.3em;
+        }
+        p{
+            margin-top: 0.3em;
+            margin-bottom:0.3em;
+        }
+    }
+    .UserContent__head__shared{
+        display: flex;
+        margin-left: auto
+    }
+}
+
+.UserContent__cont{
+    padding: 14px 20px;
+    section{
+        display: flex;
+    }
+    h2{
+        margin-top: 0;
+        margin-right: 10%;
+    }
+    table{
+        // width: 100%;
+        .field{
+            font-weight: bold;
+            text-align: right;
+        }
+        td{
+            line-height: 20px;
+        }
+        i{
+            margin-left: 0.5em;
+            cursor: pointer;
+        }
+    }
+}

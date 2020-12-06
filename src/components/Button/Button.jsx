@@ -1,7 +1,7 @@
 import React from 'react';
 import './Button.scss';
 
-const Button = ({ title, icon, clase }) => (
+const Button = ({ title, icon, iconL, clase }) => (
     <button className={`btn ${clase}`}>
         { icon ? 
             <span>
@@ -9,6 +9,9 @@ const Button = ({ title, icon, clase }) => (
             </span>
             :
             ''
+        }
+        { iconL ?
+            <i class={`fab ${iconL} icon-left`}></i> : ''
         }
         {title}
     </button>

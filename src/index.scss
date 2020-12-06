@@ -10,10 +10,15 @@ body{
   font-size: 14px;
 }
 
+h1{
+  font-size: 24px;
+}
+
 h2{
   font-size: 18px;
   font-weight: normal;
 }
+
 
 p{
   color: $blue;
@@ -35,6 +40,10 @@ button:focus{
     background-color: $greenLight;
     transition: 0.3s;
   }
+}
+
+.mr05{
+  margin-right: 0.5em;
 }
 
 .mrl1{

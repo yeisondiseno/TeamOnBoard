@@ -23,15 +23,26 @@
         border: 1px solid $white;
         transition: 0.3s;
     }
-}
-
-.btn.active{
-    background-color: $white;
-    border-color: $white;
-    color: $blue;
-    span svg {
-        path, circle, rect, line{
-            stroke: $blue;
+    .icon-left{
+        margin-right: 10px;
+    }
+    &.active{
+        background-color: $white;
+        border-color: $white;
+        color: $blue;
+        span svg {
+            path, circle, rect, line{
+                stroke: $blue;
+            }
         }
+    }
+    &.secondary{
+        background-color: $blueLight;
+        border-color: $blueLight;
+        color: $blue;
+        font-weight: bold;
+    }
+    &.secondary:hover{
+        background-color: $blueMid;
     }
 }
