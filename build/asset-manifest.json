@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.e0fcbcd5.chunk.css",
-    "main.js": "/static/js/main.eb1dba15.chunk.js",
-    "main.js.map": "/static/js/main.eb1dba15.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7e9b8cb0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7e9b8cb0.js.map",
-    "static/js/2.9f061271.chunk.js": "/static/js/2.9f061271.chunk.js",
-    "static/js/2.9f061271.chunk.js.map": "/static/js/2.9f061271.chunk.js.map",
-    "static/js/3.f42e21fa.chunk.js": "/static/js/3.f42e21fa.chunk.js",
-    "static/js/3.f42e21fa.chunk.js.map": "/static/js/3.f42e21fa.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.e0fcbcd5.chunk.css.map": "/static/css/main.e0fcbcd5.chunk.css.map",
-    "static/js/2.9f061271.chunk.js.LICENSE.txt": "/static/js/2.9f061271.chunk.js.LICENSE.txt",
-    "static/media/Logo-complete.7e03129e.svg": "/static/media/Logo-complete.7e03129e.svg",
-    "static/media/index.scss": "/static/media/SFUIText-Regular.96141c83.ttf",
-    "static/media/profile.67035651.jpg": "/static/media/profile.67035651.jpg"
+    "main.css": "./static/css/main.6ab867b0.chunk.css",
+    "main.js": "./static/js/main.eb1dba15.chunk.js",
+    "main.js.map": "./static/js/main.eb1dba15.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.df057794.js",
+    "runtime-main.js.map": "./static/js/runtime-main.df057794.js.map",
+    "static/js/2.9f061271.chunk.js": "./static/js/2.9f061271.chunk.js",
+    "static/js/2.9f061271.chunk.js.map": "./static/js/2.9f061271.chunk.js.map",
+    "static/js/3.f42e21fa.chunk.js": "./static/js/3.f42e21fa.chunk.js",
+    "static/js/3.f42e21fa.chunk.js.map": "./static/js/3.f42e21fa.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.6ab867b0.chunk.css.map": "./static/css/main.6ab867b0.chunk.css.map",
+    "static/js/2.9f061271.chunk.js.LICENSE.txt": "./static/js/2.9f061271.chunk.js.LICENSE.txt",
+    "static/media/Logo-complete.7e03129e.svg": "./static/media/Logo-complete.7e03129e.svg",
+    "static/media/index.scss": "./static/media/SFUIText-Regular.96141c83.ttf",
+    "static/media/profile.67035651.jpg": "./static/media/profile.67035651.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7e9b8cb0.js",
+    "static/js/runtime-main.df057794.js",
     "static/js/2.9f061271.chunk.js",
-    "static/css/main.e0fcbcd5.chunk.css",
+    "static/css/main.6ab867b0.chunk.css",
     "static/js/main.eb1dba15.chunk.js"
   ]
 }
